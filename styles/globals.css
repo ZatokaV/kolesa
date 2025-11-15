@@ -3,13 +3,19 @@
 :root {
   --container-width: 1680px;
   --container-padding: 24px;
+  --mini-container-width: 1200px;
 }
 
 .container {
   width: 100%;
   max-width: var(--container-width);
   margin: 0 auto;
-  padding: 0 var(--container-padding);
+}
+
+.mini-container {
+  width: 100%;
+  max-width: var(--mini-container-width);
+  margin: 0 auto;
 }
 
 *,
@@ -23,6 +29,11 @@ body {
   font-family: var(--font-inter), sans-serif;
 }
 
+html,
+body {
+  min-width: 300px;
+}
+
 img,
 picture {
   max-width: 100%;
@@ -33,5 +44,12 @@ ul,
 ol {
   list-style: none;
   padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p {
   margin: 0;
 }

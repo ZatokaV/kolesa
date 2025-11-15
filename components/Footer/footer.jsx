@@ -3,9 +3,9 @@ import "./footer.css";
 export default function Footer() {
   return (
     <footer>
-      <div className="footer__content container">
+      <div className="footer__content mini-container">
         <p>&copy; 2021 Auto theme by Frontend Tricks </p>
-        <ul>
+        <ul className="footer__content--social">
           <li>
             <a href="#">
               <img src="icons/linkedin.svg" alt="linkedin_logo" />
