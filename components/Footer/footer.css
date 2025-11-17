@@ -1,17 +1,14 @@
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
 
-.footer__content{
-    display: flex;
-    justify-content: space-between;
-
-    padding: 2rem 0;
-
-    font-family: 'poppins';
-    font-size: 15px;
-    font-weight: 400;
+  font-family: "poppins";
+  font-size: 15px;
+  font-weight: 400;
 }
 
-.footer__content--social{
-    display: flex;
-    gap: 1rem;
-
+.footer__content--social {
+  display: flex;
+  gap: 1rem;
 }
