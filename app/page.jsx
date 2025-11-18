@@ -19,31 +19,37 @@ export default function Home() {
       <section className="features">
         <ul className="features__list mini-container">
           <li className="features__card">
-            <img
-              className="features__card--icon"
-              src="icons/phone.svg"
-              alt="phone_icon"
-            />
+            <div className="features__card--img-wrapper">
+              <img
+                className="features__card--icon"
+                src="icons/phone.svg"
+                alt="phone_icon"
+              />
+            </div>
             <h2 className="features__card--title">CALL US NOW 222-222-222</h2>
             <p className="features__card--text">Feel free to call us</p>
           </li>
           <li className="features__card">
-            <img
-              className="features__card--icon"
-              src="icons/calendar.svg"
-              alt="calendar_icon"
-            />
+            <div className="features__card--img-wrapper">
+              <img
+                className="features__card--icon"
+                src="icons/calendar.svg"
+                alt="calendar_icon"
+              />
+            </div>
             <h2 className="features__card--title">GET FREE APPOITMET</h2>
             <p className="features__card--text">
               Free Diagnosis & Brake Checks
             </p>
           </li>
           <li className="features__card">
-            <img
-              className="features__card--icon"
-              src="icons/maps.svg"
-              alt="maps_icon"
-            />
+            <div className="features__card--img-wrapper">
+              <img
+                className="features__card--icon"
+                src="icons/maps.svg"
+                alt="maps_icon"
+              />
+            </div>
             <h2 className="features__card--title">FIND US ON MAP</h2>
             <p className="features__card--text">New York, 1286 Ruumu Nanor</p>
           </li>
@@ -101,8 +107,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
-        <div className="process container">
+      <section className="process">
+        <div className="process_wrap container">
           <h2 className="process__text--main">FAST & EASY</h2>
           <p className="process__text--secondary">our work process</p>
           <ul className="process_list mini-container">

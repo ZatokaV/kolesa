@@ -3,7 +3,7 @@
   justify-content: space-between;
   padding: 2rem 1rem;
 
-  font-family: "poppins";
+  font-family: "mulish";
   font-size: 15px;
   font-weight: 400;
 }
@@ -11,4 +11,12 @@
 .footer__content--social {
   display: flex;
   gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.footer__icon--wrapper{
+  height: 25px;
+  width: 25px;
 }

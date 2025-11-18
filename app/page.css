@@ -2,6 +2,7 @@
 
 .hero {
   background: url("/images/hero-bg.jpg") center / cover no-repeat;
+  font-family: "mulish";
 }
 
 .hero__content {
@@ -9,18 +10,15 @@
   justify-content: space-around;
   gap: 1.5rem;
   padding-top: 10rem;
-  padding-left: auto;
-  padding-right: auto;
 }
 
 .hero__form {
-  padding-bottom: 9rem;
+  margin-bottom: 9rem;
   color: #fff;
 }
 
 .hero__form--title,
 .hero__content--title {
-  font-family: "mulish";
   text-transform: uppercase;
   font-weight: 700;
   padding: 1rem;
@@ -55,9 +53,9 @@
 
 .features {
   position: relative;
-  margin-top: -8rem;
+  margin-top: -6rem;
   z-index: 10;
-  font-family: "poppins";
+  font-family: "mulish";
 }
 
 .features__list {
@@ -73,17 +71,19 @@
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
 }
 
-.features__card--icon {
-  padding: 1rem 0 0.5rem;
-}
-
 .features__card--title,
 .features__card--text {
-  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .features__card--text {
-  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.features__card--img-wrapper{
+  width: 30px;
+  height: 30px;
+  margin: 1rem 0 0.5rem;
 }
 
 @media (max-width: 768px) {
@@ -94,14 +94,14 @@
 
 /* ================= SERVICES =================*/
 
-.services__wrap {
-  padding-top: 3rem;
+.services {
+  margin-top: 3rem;
+  font-family: "mulish";
 }
 
 .services__title,
 .services__link,
 .services__list--card-subtitle {
-  font-family: "poppins";
   padding-left: 1rem;
 }
 
@@ -158,8 +158,13 @@
 
 /* ================= ABOUT =================*/
 
-.about__content--wrap {
+.about {
   margin-top: 3rem;
+  font-family: "mulish";
+  color: #fff;
+}
+
+.about__content--wrap {
   background-color: #171616;
 }
 
@@ -168,14 +173,11 @@
   justify-content: space-between;
   align-items: center;
   gap: 3rem;
-  margin: 0 auto;
   padding: 4rem 0;
 }
 
 .about__text {
   flex: 1;
-  color: #fff;
-  font-family: "poppins";
 }
 
 .about__text--title {
@@ -243,8 +245,8 @@
 /* ================= PROCESS =================*/
 
 .process {
-  padding-top: 3rem;
-  font-family: "poppins";
+  margin-top: 3rem;
+  font-family: "mulish";
 }
 
 .process__text--main {
@@ -331,14 +333,13 @@
   background-color: #171616;
   margin-top: 3rem;
   padding-bottom: 3rem;
+  color: #fff;
+  font-family: "mulish";
 }
 
 .contacts__title {
   margin-left: 1rem;
   padding-top: 7rem;
-
-  color: #fff;
-  font-family: "poppins";
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;

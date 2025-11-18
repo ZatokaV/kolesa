@@ -4,17 +4,13 @@ import Header from "../components/Header/header";
 import Footer from "../components/Footer/footer";
 
 const mulish = Mulish({
-  subsets: ["cyrillic"],
-  weight: ["700"],
-  display: "swap",
-});
-
-const poppins = Poppins({
   subsets: ["latin", "cyrillic"],
   weight: ["400", "500", "600", "700", "900"],
   display: "swap",
-  variable: "--font-poppins",
+  variable: "--font-mulish",
 });
+
+
 
 export const metadata = {
   title: "Шиномонтаж",
@@ -23,10 +19,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={poppins.variable}>
+    <html lang="en" className={mulish.variable}>
       <body>
         <Header />
-        <main>{children}</main>
+        {children}
         <Footer />
       </body>
     </html>
